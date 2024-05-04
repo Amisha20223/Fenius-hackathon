@@ -7,9 +7,8 @@ export default function Home() {
       <div className="relative w-[240px] h-[240px] lg:w-[424px] lg:h-[424px] mb-8 lg:mb-0">
         <Image
           src="/asset-management.png" 
-          alt="Description of your image"
-          width={424} 
-          height={424} 
+          alt="hero"
+           
         />
       </div>
     </div>
