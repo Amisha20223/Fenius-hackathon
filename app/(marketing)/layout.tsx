@@ -1,5 +1,6 @@
 import {Header} from "./header";
 import {Footer} from "./footer";
+import { Body } from "./body";
 type Props ={
     childeren: React.ReactNode;
 };
@@ -9,7 +10,11 @@ const MarketingLayout = ({ childeren}: Props) => {
             <Header/>
             <main className="min-h-screen flex flex-col items-center justify-center">
                 {childeren}
+               <Body>
+                
+               </Body>
                 </main>
+                
                 <Footer/>
            
         </div>
