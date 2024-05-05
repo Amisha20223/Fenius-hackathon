@@ -12,8 +12,10 @@ export const Body = () => {
                 />
             </div>
             <div className="flex flex-col font-bold items-center gap-y-8">
-                <h1 className="text-xl lg:text-3xl text-neutral-600 max-w-[400] text-center">
-                    Learn, practice, and master about Finance
+                <h1 className="text-xl lg:text-3xl max-w-[400] text-center">
+                    <span className="text-neutral-600 shadow-xl" style={{ textShadow: "0 2px 4px rgba(255, 150, 0, 0.5)" }}>
+                        Learn, practice, and master about Finance
+                    </span>
                 </h1>
             </div>
         </section>
